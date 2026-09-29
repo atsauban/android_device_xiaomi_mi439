@@ -4,32 +4,32 @@
 # umi Package version: Xiaomi/umi_global/umi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys
 
 # ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp
-vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb
-vendor/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb|7708cacdc5edf2f1031bbcb9410d65ff4d239f7d
+vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb|036cf841f61825f4de2e931fbd62083e7789e879
+vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb|4654e974d925db2109d19e3c91e70a29316e5c0c
+vendor/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp|e76780e84b743d473a960cb557ed226e3251e8cb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb|48e799ed27e0a604d7fd0660d134400636f79c8b
+vendor/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb|8293398fc762161bdf8b0bf67d6af810a7dce2f1
+vendor/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb|1b77d10fe1c134121670734ff149bb0ee33d01b8
+vendor/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb|26e1ef8e18af5d56a88c21a1a28dd76f841352d1
+vendor/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb|44aa4384f0ffb65300284e80ea15cc1ff2251d6f
 
 # ACDB - from pine
-vendor/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb
-vendor/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp
+vendor/etc/acdbdata/pine/SDM439_SKU1_Bluetooth_cal.acdb|fb0d1ad5b17eb858ba6b3d4ad8dccedd815c8253
+vendor/etc/acdbdata/pine/SDM439_SKU1_General_cal.acdb|df34730b15bee8b1db5974e4ca3ec954be46b746
+vendor/etc/acdbdata/pine/SDM439_SKU1_Global_cal.acdb|59eac9f645faf78150912ff97f06f8c74a7ee95e
+vendor/etc/acdbdata/pine/SDM439_SKU1_Handset_cal.acdb|536c46a98f36adb409a1fda490032c2b3a45973d
+vendor/etc/acdbdata/pine/SDM439_SKU1_Hdmi_cal.acdb|73e7f8578bda0e7730888a9902677feec78d9dc4
+vendor/etc/acdbdata/pine/SDM439_SKU1_Headset_cal.acdb|397fea08c59779692eeeed7d811eae5f3c8cc86b
+vendor/etc/acdbdata/pine/SDM439_SKU1_Speaker_cal.acdb|7e957a732f39acd28b81cef9ffffa12c239e12be
+vendor/etc/acdbdata/pine/SDM439_SKU1_workspaceFile.qwsp|035dffe3471bd6036dd2545740a70808642bb772
 
 # ADSP Modules
--vendor/lib/rfsa/adsp/dirac_resource.dar;DISABLE_DEPS
--vendor/lib/rfsa/adsp/libdirac-capiv2.so;DISABLE_DEPS
--vendor/lib/rfsa/adsp/misound_karaokemix_res.bin;DISABLE_DEPS
--vendor/lib/rfsa/adsp/misound_karaoke_res.bin;DISABLE_DEPS
--vendor/lib/rfsa/adsp/misound_res.bin;DISABLE_DEPS
+-vendor/lib/rfsa/adsp/dirac_resource.dar;DISABLE_DEPS|cd71f1a846ae561eea40db9c2deee698d296e403
+-vendor/lib/rfsa/adsp/libdirac-capiv2.so;DISABLE_DEPS|e56031dfaee094d5267e3cc16625cfceaa07cc27
+-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin;DISABLE_DEPS|1b6114eeefa29e36f10571ae5dde4ba84625982c
+-vendor/lib/rfsa/adsp/misound_karaoke_res.bin;DISABLE_DEPS|eeda10edb9cf93d20cbe9a4ed77dd0eeef81efab
+-vendor/lib/rfsa/adsp/misound_res.bin;DISABLE_DEPS|f9b70e341815fb9c3ea9a0d3a248efd315389f9c
 
 # Audio dirac - from mido
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
@@ -37,93 +37,93 @@ vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 -vendor/lib/libDiracAPI_SHARED.so;DISABLE_DEPS|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 
 # Charger
--vendor/bin/hvdcp_opti;DISABLE_DEPS
+-vendor/bin/hvdcp_opti;DISABLE_DEPS|a3dec23a6e594838ef137e744998c5cdfccfb3f1
 
 # Consumer IR - from umi
--vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8937.so;DISABLE_DEPS|c5c8947ace6c6479914a57ad609a961eebf0b949
+-vendor/lib64/hw/consumerir.msm8937.so;DISABLE_DEPS|a724c28d08f00c890179b4180b725c5ac648b7b0
 
 # Fingerprint
--vendor/lib64/com.fingerprints.extension@1.0.so;DISABLE_DEPS
--vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so;DISABLE_DEPS
--vendor/lib64/hw/gf_fingerprint.default.so;DISABLE_DEPS
--vendor/lib64/libgf_ca.so;DISABLE_DEPS
--vendor/lib64/libgf_hal.so;DISABLE_DEPS
--vendor/lib64/libgoodixhwfingerprint.so;DISABLE_DEPS
--vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so;DISABLE_DEPS
--vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so;DISABLE_DEPS
--vendor/lib/com.fingerprints.extension@1.0.so;DISABLE_DEPS
+-vendor/lib64/com.fingerprints.extension@1.0.so;DISABLE_DEPS|ac212c6c40ca863d08d3d75c98c62b9b6bffa880
+-vendor/lib64/hw/fingerprint.msm8937.so;DISABLE_DEPS|c813bcbc579a460974c6d6916fc4e5dc7a57a856
+-vendor/lib64/hw/gf_fingerprint.default.so;DISABLE_DEPS|98e019b6e6756914cbb4ad9511c22bc8c84c2564
+-vendor/lib64/libgf_ca.so;DISABLE_DEPS|0c9bb8f8e90d2faccc60f24b3c41f64897673b5b
+-vendor/lib64/libgf_hal.so;DISABLE_DEPS|7c6315a3e81de0af000aa87e284fa530b2890c11
+-vendor/lib64/libgoodixhwfingerprint.so;DISABLE_DEPS|3ff754a6494497a9c2867f0c27d4a2d87b23c574
+-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so;DISABLE_DEPS|5634999d2dde3d79f9e9988c83612171a99706b3|5634999d2dde3d79f9e9988c83612171a99706b3
+-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so;DISABLE_DEPS|5d93bd72faf628402215bcb6e525b8447d03f837
+-vendor/lib/com.fingerprints.extension@1.0.so;DISABLE_DEPS|aeb92ad3022976bbd3500a62d9756709f9c1e2f7
 
 # Firmwares
-vendor/firmware/aw87519_rcv.bin
-vendor/firmware/aw87519_spk.bin
-vendor/firmware/focaltech_ts_fw.bin
-vendor/firmware/novatek_ts_fw.bin
-vendor/firmware/novatek_ts_mp.bin
+vendor/firmware/aw87519_rcv.bin|d40862ab7fc02301c8db48e18dfc25528301dcd3
+vendor/firmware/aw87519_spk.bin|5488bb99d3ddd24238716cef6fede9d3ad433fce
+vendor/firmware/focaltech_ts_fw.bin|4018e1dd1c660a15108c8725a19d4816392b8148
+vendor/firmware/novatek_ts_fw.bin|5a630b5b5c96195b1d846cdd58399a4bc22f34c0
+vendor/firmware/novatek_ts_mp.bin|a9576e9846ace0097640fc7e2d2356a10a0cccb4
 
 # Firmwares - from pine
-vendor/firmware/aw87329_abrcv.bin
-vendor/firmware/aw87329_drcv.bin
-vendor/firmware/aw87329_kspk.bin
-vendor/firmware/C3E_FT5446_Hnlens.bin
-vendor/firmware/C3E_FT5446_Truly.bin
-vendor/firmware/gt1x_fw.bin
+vendor/firmware/aw87329_abrcv.bin|61bc7cdc050256f63e8c35f679aab252e2fb775f
+vendor/firmware/aw87329_drcv.bin|38946a889be67c1a11d928d78eec5eeefc98b436
+vendor/firmware/aw87329_kspk.bin|38fb9c9821876e3ebb76fecc565947074ab47708
+vendor/firmware/C3E_FT5446_Hnlens.bin|0e0fec0f9cad92e7cedbb1017a27e59e07ca54ae
+vendor/firmware/C3E_FT5446_Truly.bin|d589af38fc0dabf9779b1f76633c2c6b546aaa3b
+vendor/firmware/gt1x_fw.bin|2cc44ea731273343955ddef6e171a08174cfa661
 
 # Gatekeeper (QTI) - from PAN
--vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti;DISABLE_DEPS
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
--vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so;DISABLE_DEPS
+-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti;DISABLE_DEPS|2e33e885b92e413440511049025497945d6b8484
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so;DISABLE_DEPS|2961af51b86e04e5003298eeaf297036891d38a4
 
 # Graphics firmware - from PAN
-vendor/firmware/a506_zap.b00
-vendor/firmware/a506_zap.b01
-vendor/firmware/a506_zap.b02
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
+vendor/firmware/a506_zap.b00|21d74ee137e4096c2ffcd6f2545b5b2f8f384efa
+vendor/firmware/a506_zap.b01|361c546562728f048a378523449017c08ba97fc5
+vendor/firmware/a506_zap.b02|3e301fa5905acd05f15836959595791c1241a017
+vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
+vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
 # Graphics firmware
-vendor/firmware/a506_zap.mdt
+vendor/firmware/a506_zap.mdt|ea1053e5af9918044df81fa373b5ef0f4c823f45
 
 # Keymaster (QTI) - from PAN
--vendor/bin/hw/android.hardware.keymaster@4.0-service-qti;DISABLE_DEPS
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
--vendor/lib64/libkeymasterdeviceutils.so;DISABLE_DEPS
--vendor/lib64/libkeymasterutils.so;DISABLE_DEPS
--vendor/lib64/libqcbor.so;DISABLE_DEPS
--vendor/lib64/libqtikeymaster4.so;DISABLE_DEPS
+-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti;DISABLE_DEPS|a45a54c931fc8bb583515e232b3f6662bdaeed3f
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+-vendor/lib64/libkeymasterdeviceutils.so;DISABLE_DEPS|2d0e5a9a38231b2539ca30170358e37f2ff4fe62
+-vendor/lib64/libkeymasterutils.so;DISABLE_DEPS|419ea4e3644cb151701df5138824f1ddc6edb7c5
+-vendor/lib64/libqcbor.so;DISABLE_DEPS|7da5294a577f5a71ede5b3804a026bf69bd025ee
+-vendor/lib64/libqtikeymaster4.so;DISABLE_DEPS|b7c80e7062192416e3b417b0579495bc6b6bc8ba
 
 # Perf configs - from PAN
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perf-profile0.conf
-vendor/etc/perf/perf-profile1.conf
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
+vendor/etc/perf/commonresourceconfigs.xml|c03bd36054bb5d327ad12dc711b58b3f658d261c
+vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
+vendor/etc/perf/perf-profile1.conf|5ce649b26b71048734b797af7340d9f7f7b83ca0
+vendor/etc/perf/perfboostsconfig.xml|8cf3f1909bac8a31f1bf468393683629a7d576a4
+vendor/etc/perf/perfconfigstore.xml|300533aba386f075c7681e9f4768a1acae01a38c
+vendor/etc/perf/targetconfig.xml|0072ac955f3da3976b4ba0e6501fede098f7f9ad
+vendor/etc/perf/targetresourceconfigs.xml|ad284846fdebe98f3c786e40abbe1980d50dc033
 
 # Sensor config (olive)
-vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/olive/sensors/sensor_def_qcomdev.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/olive/sensors/sensor_def_qcomdev.conf|55320dcbdc0c801e2e57469eebc6e2bc29bf8064
 
 # Sensor config (pine) - from pine
-vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/pine/sensors/sensor_def_qcomdev.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/pine/sensors/sensor_def_qcomdev.conf|04977e25de9352110eb2df4125a252cbb909529c
 
 # Sensors
--vendor/bin/sensors.qti;DISABLE_DEPS
--vendor/lib/libsensor1.so;DISABLE_DEPS
--vendor/lib64/libsensor1.so;DISABLE_DEPS
+-vendor/bin/sensors.qti;DISABLE_DEPS|1ac694f060c7922fe38987cdf646b01bdc7dff10
+-vendor/lib/libsensor1.so;DISABLE_DEPS|0b321ef1824ce196eec15c51a10def26e092a895
+-vendor/lib64/libsensor1.so;DISABLE_DEPS|300b3245ae2f45f51cc27324572d84d36412ae64
 
 # Sensors (SSC)
--vendor/lib64/libsensor_reg.so;DISABLE_DEPS
--vendor/lib64/sensors.ssc.so;DISABLE_DEPS
+-vendor/lib64/libsensor_reg.so;DISABLE_DEPS|f5da84c560b96d48a2bbeb6f2f94bb66f0c7a467
+-vendor/lib64/sensors.ssc.so;DISABLE_DEPS|b55816be99793e02a2e75462fa92842679b401bd
 
 # Thermal
--vendor/bin/thermal-engine:vendor/bin/thermal-engine-olive;DISABLE_DEPS
--vendor/lib64/libthermalfeature.so;DISABLE_DEPS
+-vendor/bin/thermal-engine:vendor/bin/thermal-engine-olive;DISABLE_DEPS|633b9cff05ba176a18101bdfc03ecacc98e1e0f0
+-vendor/lib64/libthermalfeature.so;DISABLE_DEPS|1c408911610e5b6a11853aff1900860f9e9a861f
 
 # Thermal configs
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-high.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-nolimits.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-sgame.conf
-vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-camera.conf|365fb62ac0892e5b2aa1e293d926824520cf5f77
+vendor/etc/thermal-engine-high.conf|468135cfcb272f24649774dcf4d689644f5064e1
+vendor/etc/thermal-engine-map.conf|952fa325f760f821b7a3fe64ca0222fbcea68326
+vendor/etc/thermal-engine-nolimits.conf|d265737374c7c87f89c36ca64755955d7cd658e4
+vendor/etc/thermal-engine-normal.conf|bc42b3a6293454220ceca58135f792345d1d95fe
+vendor/etc/thermal-engine-sgame.conf|f2dbf8c2c6ce954a2517f5743b97a5a9c78f9e4e
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100

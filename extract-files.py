@@ -1,0 +1,42 @@
+#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
+#
+# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+from extract_utils.fixups_blob import (
+    blob_fixup,
+    blob_fixups_user_type,
+)
+from extract_utils.fixups_lib import (
+    lib_fixups,
+    lib_fixups_user_type,
+)
+from extract_utils.main import (
+    ExtractUtils,
+    ExtractUtilsModule,
+)
+
+namespace_imports = [
+    'vendor/xiaomi/mithorium-common',
+]
+
+blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so': blob_fixup().replace_needed(
+        'libhidltransport.so', 'libhidlbase_shim.so'
+    ),
+}
+
+module = ExtractUtilsModule(
+    'Mi439',
+    'xiaomi',
+    blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
+    namespace_imports=namespace_imports,
+)
+
+module.add_proprietary_file('proprietary-files-camera.txt')
+
+if __name__ == '__main__':
+    utils = ExtractUtils.device_with_common(module, 'mithorium-common', module.vendor)
+    utils.run()
